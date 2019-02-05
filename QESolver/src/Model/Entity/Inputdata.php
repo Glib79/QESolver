@@ -1,0 +1,13 @@
+<?php
+// src/Model/Entity/Inputdata.php
+namespace App\Model\Entity;
+
+use Cake\ORM\Entity;
+
+class Inputdata extends Entity
+{
+    protected $_accessible = [
+        '*' => true,
+        'id' => false,
+    ];
+}

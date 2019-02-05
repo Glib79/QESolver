@@ -1,0 +1,32 @@
+label {
+    width: 10%;
+    float: left;
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    width: 74%;
+}
+
+input.error, input[type="text"].error:focus {
+    border-color: #C3232D;
+}
+
+.container {
+    margin: 20px;
+}
+
+.qes_text {
+    float: left;
+    width: 100px;
+}
+
+.qes_eq {
+    float: left;
+    margin-top: 6px;
+}
+
+.qes_submit {
+    clear: both;
+}
+
